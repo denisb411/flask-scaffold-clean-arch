@@ -1,0 +1,66 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyd
+
+# Virtual environments (if not using Poetry's in-project)
+.env/
+.venv/
+
+# Environment variable files
+.env*
+!.env.example
+
+# Poetry lockfile backup
+poetry.lock.*
+
+# VSCode & IDEs
+.vscode/
+.idea/
+*.swp
+
+# Test outputs
+htmlcov/
+coverage.xml
+.cache/
+.tox/
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+typings/
+
+# Logs
+*.log
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Docker-related
+**/docker-compose.override.yml
+*.pid
+
+# Compiled shared objects
+*.so
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Python wheel
+*.whl
+
+# Flask-SQLAlchemy migration files (if using Alembic or similar)
+migrations/
+
+# Misc
+*.bak
+*.tmp
+
+
+.env
